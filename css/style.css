@@ -1,0 +1,11 @@
+@import "normalize";
+@import "grid";
+@import "header";
+@import "about_me";
+
+html {
+    font-size: 62.5%;
+}
+body {
+    background: var(--body-bg-color);
+}

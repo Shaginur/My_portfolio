@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>App</title>
+        <meta
+            name="theme-color"
+            media="(prefers-color-scheme: light)"
+            content="hsl(0 0% 100%)"
+        />
+        <meta
+            name="theme-color"
+            media="(prefers-color-scheme: dark)"
+            content="hsl(0 0% 100%)"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+        <link
+            rel="preload"
+            href="src/fonts/IBM-Plex-Sans/IBMPlexSans.woff"
+            as="font"
+            type="font/woff"
+            crossorigin=""
+        />
+        <link
+            rel="preload"
+            href="src/fonts/IBM-Plex-Sans/IBMPlexSans-Medium.woff"
+            as="font"
+            type="font/woff"
+            crossorigin=""
+        />
+        <link
+            rel="preload"
+            href="src/fonts/IBM-Plex-Sans/IBMPlexSans-SemiBold.woff"
+            as="font"
+            type="font/woff"
+            crossorigin=""
+        />
+        <link
+            rel="stylesheet"
+            href="css/light.css"
+            media="(prefers-color-scheme: light)"
+        />
+        <link
+            rel="stylesheet"
+            href="css/dark.css"
+            media="(prefers-color-scheme: dark)"
+        />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="container website">
+                    <img
+                        src="img/logo/My_frontend.jpg"
+                        alt="logo"
+                        class="frontend"
+                    />
+                    <nobr>
+                    <a href="" class="blocks">О себе</a>
+                    <a href="" class="blocks">инструменты</a>
+                    <a href="" class="blocks">итоговая работа</a>
+                    </nobr>
+
+                    <fieldset class="switcher">
+                        <input type="checkbox" class="switch" />
+                        <label for="s2"></label>
+                    </fieldset>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+
+        <section class="about_me">
+            <div class="container">
+                <h1>Мардамшин Шагинур Маршалович</h1>
+                <h2 class="subtitle">О себе</h2>
+                <div class="about_me-item">
+                    <img src="img/Mi.jpg" alt="photo" class="my_photo">
+                    <div class="about_me-text">
+                        <br><br>Начинающий Frontend-разработчик 1995 года рождения из города Сургут
+                        <br><br>Frontend-разработка заинтересовала меня тем что IT индустрия начала стремительно развиваться и оброзавания IT специалиста стала доступна каждому
+                        <br><br>Для начала я ознакомился Frontend через образовательный портал BionMax где прошел курс по веб разработки и получил сертификат и понял что я хочу этим заниматься
+                        <br><br>Затем понимая что если я хочу быть востребываным специалистом то самооброзования не вариант и поступил на годовой курс Frontend-разработки в Компьютерную Академию TOP
+                        <br><br>Это Крупнейшая международная сеть академий IT-образования с высоким уровнем трудоустройства выпускников но я намерен и дальше развиваться и учиться новому
+                    </div>
+                </div>
+            </div>
+        </section>
+</main>
+        <script src="js/style.js"></script>
+        <script src="js/swicher.js"></script>
+    </body>
+</html>

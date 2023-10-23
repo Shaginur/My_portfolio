@@ -1,0 +1,44 @@
+.about_me {
+    color: var(--nav-border-botom);
+}
+
+.my_photo {
+    width: 50%;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 6rem;
+    text-align: center;
+    color: var(--about-title-color);
+}
+
+.subtitle {
+    position: relative;
+    font-size: 4rem;
+    margin-bottom: 6rem;
+    text-align: center;
+    color: var(--about-title-color);
+}
+
+.subtitle::before {
+    content: " ";
+    position: absolute;
+    width: 6rem;
+    height: 6rem;
+    margin: -2rem 0 2rem 0;
+    border-radius: 50%;
+    box-shadow: 0 0 1.5rem 1.5rem var(--before-title-color);
+    z-index: -1;
+    top: 1.4rem;
+    left: 62rem;
+}
+
+
+.about_me-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 3.4rem;
+    align-items: start;
+    gap: 4rem;
+}
