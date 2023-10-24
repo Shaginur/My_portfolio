@@ -1,7 +1,7 @@
 import Swiper from "swiper"; // Инициализация слайдера
 import { Navigation, Pagination } from "swiper/modules";
 
-const swiper = new Swiper(".swiper", {
+const swiper = new Swiper(".mySwiper", {
     modules: [Navigation, Pagination],
     // Optional parameters
     direction: "horizontal",
@@ -13,5 +13,6 @@ const swiper = new Swiper(".swiper", {
     pagination: {
         el: ".swiper-pagination",
         clickable: true,
+        type: "progressbar",
     },
 });
