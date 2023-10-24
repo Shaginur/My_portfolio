@@ -2,6 +2,7 @@ nav {
     border-bottom: 0.3rem var(--nav-border-botom) solid;
     border-radius: 0 0 20% 20%;
 }
+
 .website {
     display: flex;
     justify-content: center;
@@ -25,7 +26,7 @@ nav {
 }
 
 .blocks:hover {
-    border-bottom: 0.1rem var(--nav-border-botom) solid;
+    border-bottom: 0.2rem var(--nav-border-botom) solid;
 }
 
 .switcher {

@@ -1,22 +1,23 @@
 .about_me {
+    display: none;
     color: var(--nav-border-botom);
 }
 
 .my_photo {
-    width: 50%;
+    width: 20%;
     border-radius: 50%;
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 4rem;
     text-align: center;
     color: var(--about-title-color);
 }
 
 .subtitle {
     position: relative;
-    font-size: 4rem;
-    margin-bottom: 6rem;
+    font-size: 2rem;
+    margin-bottom: 4rem;
     text-align: center;
     color: var(--about-title-color);
 }
@@ -24,21 +25,92 @@ h1 {
 .subtitle::before {
     content: " ";
     position: absolute;
-    width: 6rem;
-    height: 6rem;
-    margin: -2rem 0 2rem 0;
+    width: 2rem;
+    height: 2rem;
     border-radius: 50%;
     box-shadow: 0 0 1.5rem 1.5rem var(--before-title-color);
     z-index: -1;
-    top: 1.4rem;
-    left: 62rem;
+    top: 0.3rem;
+    left: 64.4rem;
 }
-
 
 .about_me-item {
     display: flex;
     justify-content: space-between;
-    font-size: 3.4rem;
+    font-size: 2.4rem;
     align-items: start;
-    gap: 4rem;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.about_me-text {
+    padding-left: 4rem;
+}
+
+@media screen and (max-width: 1399px) {
+    .subtitle::before {
+        top: 0.2rem;
+        left: 55.2rem;
+    }
+    .subtitle {
+        margin-bottom: 2rem;
+    }
+    .about_me-text {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .about_me-text {
+        font-size: 1.6rem;
+    }
+    .subtitle::before {
+        left: 46.2rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .subtitle::before {
+        left: 34rem;
+    }
+    .my_photo {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .subtitle::before {
+        left: 25rem;
+    }
+    .about_me-text {
+        font-size: 1.4rem;
+        padding: 0;
+        padding-right: 1rem;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .subtitle::before {
+        left: 26.8rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .subtitle::before {
+        left: 22rem;
+    }
+
+    .about_me-text {
+        font-size: 1.4rem;
+        padding-right: 1rem;
+        box-sizing: border-box;
+    }
+
+    .about_me-item {
+        gap: 1rem;
+    }
 }

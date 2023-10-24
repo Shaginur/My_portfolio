@@ -2,10 +2,16 @@
 @import "grid";
 @import "header";
 @import "about_me";
+@import "skils";
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
 
 html {
     font-size: 62.5%;
+    user-select: none;
 }
+
 body {
     background: var(--body-bg-color);
 }
