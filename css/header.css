@@ -11,6 +11,7 @@ nav {
     font-size: 2rem;
     margin: 0 auto;
 }
+
 .frontend {
     width: 10rem;
     height: 10rem;
@@ -167,6 +168,7 @@ nav {
         gap: 1rem;
     }
 }
+
 @media screen and (max-width: 685px) {
     .blocks {
         padding: 0.5rem;

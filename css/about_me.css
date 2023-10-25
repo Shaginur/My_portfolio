@@ -52,9 +52,11 @@ h1 {
         top: 0.2rem;
         left: 55.2rem;
     }
+
     .subtitle {
         margin-bottom: 2rem;
     }
+
     .about_me-text {
         font-size: 2rem;
     }
@@ -64,9 +66,11 @@ h1 {
     .about_me-text {
         font-size: 1.6rem;
     }
+
     .subtitle::before {
         left: 46.2rem;
     }
+
     h1 {
         font-size: 3rem;
     }
@@ -76,6 +80,7 @@ h1 {
     .subtitle::before {
         left: 34rem;
     }
+
     .my_photo {
         width: 40%;
     }
@@ -85,6 +90,7 @@ h1 {
     .subtitle::before {
         left: 25rem;
     }
+
     .about_me-text {
         font-size: 1.4rem;
         padding: 0;
@@ -95,7 +101,7 @@ h1 {
 
 @media screen and (max-width: 575px) {
     .subtitle::before {
-        left: 26.8rem;
+        left: 25.8rem;
     }
 }
 
@@ -112,5 +118,11 @@ h1 {
 
     .about_me-item {
         gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .subtitle::before {
+        left: 20rem;
     }
 }

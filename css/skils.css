@@ -1,8 +1,8 @@
 .skils {
     margin-top: 4rem;
 }
+
 .swiper {
-    background-color: var(--body-bg-color);
     margin-top: 5rem;
     width: 100%;
     height: 50rem;
@@ -18,7 +18,7 @@ body {
 body {
     background: #eeeeee;
     font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #000000;
     margin: 0;
     padding: 0;
@@ -30,9 +30,9 @@ body {
 }
 
 .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #ffffff;
+    text-align: start;
+    font-size: 1.8rem;
+    background: var(--body-bg-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,19 +53,95 @@ body {
 }
 
 .banner .banner-img1 {
-    width: 30%;
+    width: 26%;
+    object-fit: contain;
 }
 
 .banner .banner-img2 {
-    width: 35%;
+    width: 31%;
+    object-fit: contain;
 }
 
 .banner .banner-img3 {
     width: 35%;
-    padding: 10rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    object-fit: contain;
 }
 
 .banner-p {
-    width: 40%;
-    font-size: 4rem;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    font-size: 2.4rem;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner {
+    background-color: var(--body-bg-color);
+    color: var(--nav-border-botom);
+    margin: 4rem 4rem 4rem 6rem;
+    height: 38rem;
+}
+
+@media screen and (max-width: 1199px) {
+    .banner-p {
+        font-size: 1.4rem;
+    }
+
+    .swiper-button-next::after {
+        margin-right: -1rem;
+    }
+
+    .swiper-slide .banner {
+        width: 88%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .swiper-slide .banner {
+        width: 84%;
+    }
+
+    .banner .banner-img2 {
+        width: 40%;
+    }
+
+    .banner .banner-img1 {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .swiper-slide .banner {
+        width: 80%;
+    }
+
+    .banner .banner-img3 {
+        width: 50%;
+    }
+
+    .banner .banner-img2 {
+        width: 49%;
+    }
+
+    .banner .banner-img1 {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 496px) {
+    .swiper-button-next::after {
+        margin-right: -2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .swiper-button-next::after {
+        margin-right: -2.4rem;
+    }
 }
