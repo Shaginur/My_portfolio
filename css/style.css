@@ -7,6 +7,8 @@
 @import "swiper/css/navigation";
 @import "swiper/css/pagination";
 @import "swiper/css/bundle";
+@import "my_work";
+@import "tab";
 
 html {
     font-size: 62.5%;
