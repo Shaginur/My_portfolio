@@ -1,43 +1,40 @@
-import Swiper from "swiper"; // Инициализация слайдера
-import { Navigation, Pagination } from "swiper/modules";
+import Swiper from 'swiper' // Инициализация слайдера
+import { Navigation, Pagination } from 'swiper/modules'
 
-const swiper = new Swiper(".mySwiper", {
-    modules: [Navigation, Pagination],
-    // Optional parameters
-    direction: "horizontal",
-    // Navigation arrows
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-        type: "progressbar",
-    },
-});
+const swiper = new Swiper('.mySwiper', {
+  modules: [Navigation, Pagination],
+  // Optional parameters
+  direction: 'horizontal',
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    type: 'progressbar',
+  },
+})
 
-const showTab = (elTabBtn) => {
-    const elTab = elTabBtn.closest(".tab");
-    if (elTabBtn.classList.contains("tab-btn-active")) {
-        return;
-    }
-    const targetId = elTabBtn.dataset.targetId;
-    const elTabPane = elTab.querySelector(`.tab-pane[data-id="${targetId}"]`);
-    if (elTabPane) {
-        const elTabBtnActive = elTab.querySelector(".tab-btn-active");
-        elTabBtnActive.classList.remove("tab-btn-active");
-        const elTabPaneShow = elTab.querySelector(".tab-pane-show");
-        elTabPaneShow.classList.remove("tab-pane-show");
-        elTabBtn.classList.add("tab-btn-active");
-        elTabPane.classList.add("tab-pane-show");
-    }
-};
+var tabNavs = document.querySelectorAll('.nav-tab')
+var tabPanes = document.querySelectorAll('.tab-pane')
 
-document.addEventListener("click", (e) => {
-    if (e.target && !e.target.closest(".tab-btn")) {
-        return;
+for (var i = 0; i < tabNavs.length; i++) {
+  tabNavs[i].addEventListener('click', function (e) {
+    e.preventDefault()
+    var activeTabAttr = e.target.getAttribute('data-tab')
+
+    for (var j = 0; j < tabNavs.length; j++) {
+      var contentAttr = tabPanes[j].getAttribute('data-tab-content')
+
+      if (activeTabAttr === contentAttr) {
+        tabNavs[j].classList.add('active')
+        tabPanes[j].classList.add('active')
+      } else {
+        tabNavs[j].classList.remove('active')
+        tabPanes[j].classList.remove('active')
+      }
     }
-    const elTabBtn = e.target.closest(".tab-btn");
-    showTab(elTabBtn);
-});
+  })
+}

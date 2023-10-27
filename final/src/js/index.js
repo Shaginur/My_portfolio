@@ -1,12 +1,12 @@
-import { Modal } from "./components/modal";
+import {Modal} from "./components/modal";
 import Swiper from "swiper"; // Инициализация слайдера
-import { Navigation, Pagination } from "swiper/modules"; // Инициализация иконок, пагинации и т.д.
+import {Navigation, Pagination} from "swiper/modules"; // Инициализация иконок, пагинации и т.д.
 
 // Навигация в шапке
 const navLinks = document.querySelectorAll(".header-nav__link");
 
-navLinks.forEach((link) => {
-    link.addEventListener("click", (event) => {
+navLinks.forEach(link => {
+    link.addEventListener("click", event => {
         document
             .querySelector(".header-nav__link.active")
             .classList.remove("active");
@@ -17,8 +17,8 @@ navLinks.forEach((link) => {
 // Навигация в модалке
 const modalLinks = document.querySelectorAll(".modal-nav__link");
 
-modalLinks.forEach((link) => {
-    link.addEventListener("click", (event) => {
+modalLinks.forEach(link => {
+    link.addEventListener("click", event => {
         document
             .querySelector(".modal-nav__link.active")
             .classList.remove("active");
@@ -33,7 +33,7 @@ const modalNav = new Modal("#modal-nav", ".burger-menu");
 
 /* Слайдер на стартовой странице */
 const swiper = new Swiper(".swiper", {
-    modules: [Navigation, Pagination],
+    modules: [ Navigation, Pagination ],
     // Optional parameters
     direction: "horizontal",
     autoplay: {
@@ -60,7 +60,7 @@ const swiper = new Swiper(".swiper", {
 const inputText = document.querySelector("#register-username");
 
 /* Обработчик событий текстовый инпут */
-inputText.addEventListener("change", (event) => {
+inputText.addEventListener("change", event => {
     console.log(event.target.value);
 
     const error = document.querySelector("#username-error");

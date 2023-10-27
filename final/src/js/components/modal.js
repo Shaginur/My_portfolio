@@ -58,7 +58,7 @@ export class Modal {
             "input, select, textarea",
         );
         const values = {};
-        formElements.forEach((element) => {
+        formElements.forEach(element => {
             values[element.name] = element.value;
         });
         return values;
@@ -88,7 +88,7 @@ export class Modal {
         const errorFieldsToClear = this.modal.querySelectorAll(".input-error");
 
         if (formElementsToClear) {
-            formElementsToClear.forEach((element) => {
+            formElementsToClear.forEach(element => {
                 element.value = ""; // Очищаем значение элемента формы
 
                 if (element.tagName === "SELECT") {
@@ -98,7 +98,7 @@ export class Modal {
         }
 
         if (errorFieldsToClear) {
-            errorFieldsToClear.forEach((errorField) => {
+            errorFieldsToClear.forEach(errorField => {
                 errorField.textContent = ""; // Очищаем текст ошибок
             });
         }

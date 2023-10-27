@@ -1,147 +1,147 @@
 .skils {
-    margin-top: 4rem;
+  margin-top: 4rem;
 }
 
 .swiper {
-    margin-top: 5rem;
-    width: 100%;
-    height: 50rem;
-    border-radius: 20%;
+  margin-top: 5rem;
+  width: 100%;
+  height: 50rem;
+  border-radius: 20%;
 }
 
 html,
 body {
-    position: relative;
-    height: 100%;
+  position: relative;
+  height: 100%;
 }
 
 body {
-    background: #eeeeee;
-    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    font-size: 1.4rem;
-    color: #000000;
-    margin: 0;
-    padding: 0;
+  background: #eee;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  color: #000;
+  margin: 0;
+  padding: 0;
 }
 
 .swiper-container {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .swiper-slide {
-    text-align: start;
-    font-size: 1.8rem;
-    background: var(--body-bg-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  text-align: start;
+  font-size: 1.8rem;
+  background: var(--body-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .swiper-slide .banner {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    padding-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding-top: 4rem;
 }
 
 .banner .banner-img1 {
-    width: 26%;
-    object-fit: contain;
+  width: 26%;
+  object-fit: contain;
 }
 
 .banner .banner-img2 {
-    width: 31%;
-    object-fit: contain;
+  width: 31%;
+  object-fit: contain;
 }
 
 .banner .banner-img3 {
-    width: 35%;
-    padding: 1rem;
-    box-sizing: border-box;
-    object-fit: contain;
+  width: 35%;
+  padding: 1rem;
+  box-sizing: border-box;
+  object-fit: contain;
 }
 
 .banner-p {
-    padding: 0;
-    margin: 0;
-    width: 50%;
-    font-size: 2.4rem;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+  font-size: 2.4rem;
 }
 
 img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .banner {
-    background-color: var(--body-bg-color);
-    color: var(--nav-border-botom);
-    margin: 4rem 4rem 4rem 6rem;
-    height: 38rem;
+  background-color: var(--body-bg-color);
+  color: var(--nav-border-botom);
+  margin: 4rem 4rem 4rem 6rem;
+  height: 38rem;
 }
 
 @media screen and (max-width: 1199px) {
-    .banner-p {
-        font-size: 1.4rem;
-    }
+  .banner-p {
+    font-size: 1.4rem;
+  }
 
-    .swiper-button-next::after {
-        margin-right: -1rem;
-    }
+  .swiper-button-next::after {
+    margin-right: -1rem;
+  }
 
-    .swiper-slide .banner {
-        width: 88%;
-    }
+  .swiper-slide .banner {
+    width: 88%;
+  }
 }
 
 @media screen and (max-width: 991px) {
-    .swiper-slide .banner {
-        width: 84%;
-    }
+  .swiper-slide .banner {
+    width: 84%;
+  }
 
-    .banner .banner-img2 {
-        width: 40%;
-    }
+  .banner .banner-img2 {
+    width: 40%;
+  }
 
-    .banner .banner-img1 {
-        width: 40%;
-    }
+  .banner .banner-img1 {
+    width: 40%;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .swiper-slide .banner {
-        width: 80%;
-    }
+  .swiper-slide .banner {
+    width: 80%;
+  }
 
-    .banner .banner-img3 {
-        width: 50%;
-    }
+  .banner .banner-img3 {
+    width: 50%;
+  }
 
-    .banner .banner-img2 {
-        width: 49%;
-    }
+  .banner .banner-img2 {
+    width: 49%;
+  }
 
-    .banner .banner-img1 {
-        width: 49%;
-    }
+  .banner .banner-img1 {
+    width: 49%;
+  }
 }
 
 @media screen and (max-width: 496px) {
-    .swiper-button-next::after {
-        margin-right: -2rem;
-    }
+  .swiper-button-next::after {
+    margin-right: -2rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    .swiper-button-next::after {
-        margin-right: -2.4rem;
-    }
+  .swiper-button-next::after {
+    margin-right: -2.4rem;
+  }
 }

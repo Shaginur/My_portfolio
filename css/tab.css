@@ -1,0 +1,11 @@
+.nav-tab.active {
+  border-bottom: 0.2rem var(--nav-border-botom) solid;
+}
+
+.tab-pane {
+  display: none;
+}
+
+.tab-pane.active {
+  display: flex;
+}
