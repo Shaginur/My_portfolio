@@ -58,11 +58,11 @@
                     />
 
                     <nobr>
-                        <div class="tab">
+                        <div class="tab" id="tab-1">
                             <div class="tab-nav">
-                              <a class="tab-link blocks" href="#content-1">Вкладка 1</a>
-                              <a class="tab-link blocks" href="#content-2">Вкладка 2</a>
-                              <a class="tab-link blocks" href="#content-3">Вкладка 3</a>
+                              <botton type="button" class="blocks tab-btn tab-btn-active" data-target-id="0" href="#content-1">Вкладка 1</botton>
+                              <botton type="button" class="blocks tab-btn" data-target-id="1" href="#content-2">Вкладка 2</botton>
+                              <botton type="button" class="blocks tab-btn" data-target-id="2" href="#content-3">Вкладка 3</botton>
                             </div>
                           </div>
                     </nobr>
@@ -76,7 +76,8 @@
         </header>
 
         <main>
-                <section class="about_me tab-content" id="content-1">
+            <div class="tab-content">
+                <section class="about_me tab-pane tab-pane-show" data-id="0">
                     <div class="container">
                         <h1>Мардамшин Шагинур Маршалович</h1>
                         <h2 class="subtitle">О себе</h2>
@@ -116,7 +117,7 @@
                     </div>
                 </section>
 
-                <section class="skils tab-content" id="content-2">
+                <section class="skils tab-pane" data-id="1">
                     <div class="container">
                         <h2 class="subtitle">инструменты</h2>
 
@@ -260,7 +261,7 @@
                     </div>
                 </section>
 
-                <section class="my_work tab-content" id="content-3">
+                <section class="my_work tab-pane" data-id="2">
                     <div class="container">
                         <h2 class="subtitle">мои работы</h2>
                         <div class="grid">
@@ -270,6 +271,7 @@
                         </div>
                     </div>
                 </section>
+            </div>
         </main>
         <script src="js/swicher.js"></script>
         <script type="module" src="js/style.js"></script>
