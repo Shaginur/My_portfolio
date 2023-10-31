@@ -11,7 +11,8 @@
   },
 
   "rules": {
-    "semi": ["warn", "never"]
+    "semi": ["warn", "never"],
+    "no-unused-vars": "off"
   },
 
   "globals": {

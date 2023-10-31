@@ -1,5 +1,6 @@
 .skils {
   margin-top: 4rem;
+  margin-bottom: 2rem;
 }
 
 .swiper {
@@ -17,7 +18,7 @@ body {
 
 body {
   background: #eee;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.4rem;
   color: #000;
   margin: 0;

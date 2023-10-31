@@ -9,6 +9,7 @@
 @import "swiper/css/bundle";
 @import "my_work";
 @import "tab";
+@import "footer";
 
 html {
   font-size: 62.5%;
