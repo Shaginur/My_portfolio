@@ -17,6 +17,5 @@ html {
 }
 
 body {
-  background-color: #000;
   background: var(--body-bg-color);
 }
