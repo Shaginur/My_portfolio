@@ -9,7 +9,7 @@
 }
 
 h1 {
-  display: inline-flex;
+  display: block;
   font-size: 4rem;
   text-align: center;
   color: var(--about-title-color);
