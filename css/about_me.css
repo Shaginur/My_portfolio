@@ -105,7 +105,6 @@ h1 {
   }
 }
 
-
 @media screen and (max-width: 575px) {
   .subtitle::before {
     left: 25.8rem;
