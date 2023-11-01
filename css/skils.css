@@ -20,6 +20,7 @@ body {
   background: #eee;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 1.4rem;
+  font-weight: 300;
   color: #000;
   margin: 0;
   padding: 0;
@@ -71,6 +72,7 @@ body {
 }
 
 .banner-p {
+  overflow: hidden;
   padding: 0;
   margin: 0;
   width: 50%;
@@ -119,7 +121,7 @@ img {
 
 @media screen and (max-width: 767px) {
   .swiper-slide .banner {
-    width: 80%;
+    width: 78%;
   }
 
   .banner .banner-img3 {
@@ -139,10 +141,24 @@ img {
   .swiper-button-next::after {
     margin-right: -2rem;
   }
+
+  .swiper {
+    width: 90%;
+  }
+
+  .swiper-slide .banner {
+    width: 75%;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .swiper-button-next::after {
     margin-right: -2.4rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .swiper-slide .banner {
+    width: 70%;
   }
 }

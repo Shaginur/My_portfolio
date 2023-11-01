@@ -1,5 +1,5 @@
-nav {
-  border-bottom: 0.3rem var(--nav-border-botom) solid;
+header {
+  border-bottom: 0.2rem var(--nav-border-botom) solid;
   border-radius: 0 0 20% 20%;
 }
 
@@ -10,6 +10,7 @@ nav {
   gap: 2rem;
   font-size: 2rem;
   margin: 0 auto;
+  font-weight: 500;
 }
 
 .frontend {
@@ -59,21 +60,16 @@ nav {
     margin: 0;
     cursor: pointer;
     background: var(--b, var(--background));
-    transition:
-      background 0.3s,
-      border-color 0.3s,
-      box-shadow 0.2s;
+    transition: background 0.3s, border-color 0.3s, box-shadow 0.2s;
   }
 
   .switch::after {
-    content: "";
+    content: '';
     display: block;
     left: 0;
     top: 0;
     position: absolute;
-    transition:
-      transform var(--d-t, 0.3s) var(--d-t-e, ease),
-      opacity var(--d-o, 0.2s);
+    transition: transform var(--d-t, 0.3s) var(--d-t-e, ease), opacity var(--d-o, 0.2s);
   }
 
   .switch:checked {
@@ -182,5 +178,22 @@ nav {
 
   .website {
     gap: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .website {
+    gap: 0.5rem;
+    font-size: 1.4rem;
+  }
+
+  .switch.switch::after {
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+
+  .switch.switch {
+    width: 3.2rem;
+    height: 1.9rem;
   }
 }

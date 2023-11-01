@@ -9,9 +9,11 @@
 }
 
 h1 {
+  display: inline-flex;
   font-size: 4rem;
   text-align: center;
   color: var(--about-title-color);
+  font-weight: 500;
 }
 
 .subtitle {
@@ -20,10 +22,12 @@ h1 {
   margin-bottom: 4rem;
   text-align: center;
   color: var(--about-title-color);
+  font-weight: 500;
 }
 
 .subtitle::before {
-  content: " ";
+  content: ' ';
+  display: block;
   position: absolute;
   width: 2rem;
   height: 2rem;
@@ -45,6 +49,8 @@ h1 {
 
 .about_me-text {
   padding-left: 4rem;
+  font-weight: 300;
+  word-wrap: break-word;
 }
 
 @media screen and (max-width: 1399px) {
@@ -99,9 +105,16 @@ h1 {
   }
 }
 
+
 @media screen and (max-width: 575px) {
   .subtitle::before {
     left: 25.8rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .subtitle::before {
+    left: 22.8rem;
   }
 }
 
@@ -111,6 +124,10 @@ h1 {
   }
 
   .about_me-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
     font-size: 1.4rem;
     padding-right: 1rem;
     box-sizing: border-box;
@@ -124,5 +141,23 @@ h1 {
 @media screen and (max-width: 450px) {
   .subtitle::before {
     left: 20rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .subtitle::before {
+    left: 18rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .subtitle::before {
+    left: 17rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .subtitle::before {
+    left: 16rem;
   }
 }

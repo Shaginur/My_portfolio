@@ -4,6 +4,7 @@
 }
 
 footer {
+  display: flex;
   border-top: 0.2rem var(--nav-border-botom) solid;
   border-radius: 20% 20% 0 0;
 }
@@ -17,6 +18,7 @@ footer {
 
 h3 {
   text-align: center;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 1010px) {
@@ -25,6 +27,7 @@ h3 {
     height: 4rem;
   }
 }
+
 @media screen and (max-width: 685px) {
   .icon-social {
     width: 3rem;
