@@ -25,10 +25,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint js/*.js",
-    "lint:fix": "eslint --fix js/*.js",
-    "stylelint": "stylelint css/*.css",
-    "stylelint:fix": "stylelint --fix css/*.css",
+    "lint": "eslint src/js/*.js",
+    "lint:fix": "eslint --fix src/js/*.js",
+    "stylelint": "stylelint src/css/*.css",
+    "stylelint:fix": "stylelint --fix src/css/*.css",
     "test": "jest",
     "docs": "jsdoc -c jsdoc.json"
   },
