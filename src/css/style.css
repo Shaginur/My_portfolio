@@ -1,15 +1,15 @@
-@import "../normalize";
-@import "../grid";
-@import "../header";
-@import "../about_me";
-@import "../skils";
-@import "../swiper/css";
-@import "../swiper/css/navigation";
-@import "../swiper/css/pagination";
-@import "../swiper/css/bundle";
-@import "../my_work";
-@import "../tab";
-@import "../footer";
+@import "normalize";
+@import "grid";
+@import "header";
+@import "about_me";
+@import "skils";
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+@import "swiper/css/bundle";
+@import "my_work";
+@import "tab";
+@import "footer";
 
 html {
   font-size: 62.5%;
