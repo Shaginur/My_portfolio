@@ -1,15 +1,15 @@
-@import 'normalize';
-@import 'grid';
-@import 'header';
-@import 'about_me';
-@import 'skils';
+@import 'normalize.css';
+@import 'grid.css';
+@import 'header.css';
+@import 'about_me.css';
+@import 'skils.css';
 @import 'swiper/css';
 @import 'swiper/css/navigation';
 @import 'swiper/css/pagination';
 @import 'swiper/css/bundle';
-@import 'my_work';
-@import 'tab';
-@import 'footer';
+@import 'my_work.css';
+@import 'tab.css';
+@import 'footer.css';
 
 html {
   font-size: 62.5%;
