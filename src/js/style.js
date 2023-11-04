@@ -1,5 +1,5 @@
-import Swiper from 'swiper' // Инициализация слайдера
 import { Navigation, Pagination } from 'swiper/modules'
+import Swiper from 'swiper' // Инициализация слайдера
 
 const swiper = new Swiper('.mySwiper', {
   modules: [Navigation, Pagination],
