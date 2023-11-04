@@ -1,4 +1,4 @@
-import Swiper from './swiper.js'
+import Swiper from 'swiper'
 import { Navigation, Pagination } from 'swiper/modules'
 // Инициализация слайдера
 
