@@ -3,10 +3,10 @@
 @import 'header.css';
 @import 'about_me.css';
 @import 'skils.css';
-@import 'swiper/css';
-@import 'swiper/css/navigation';
-@import 'swiper/css/pagination';
-@import 'swiper/css/bundle';
+@import 'swiper/css.css';
+@import 'swiper/css/navigation.css';
+@import 'swiper/css/pagination.css';
+@import 'swiper/css/bundle.css';
 @import 'my_work.css';
 @import 'tab.css';
 @import 'footer.css';
