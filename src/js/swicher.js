@@ -84,8 +84,10 @@ function clearScheme() {
 setupSwitcher()
 setupScheme()
 
-import Swiper from 'swiper'
-import { Navigation, Pagination } from 'swiper/modules'
+import { Navigation, Pagination } from 'swiper'
+import { Swiper, SwiperSlide } from 'swiper/react/swiper-react.js'
+// import Swiper from 'swiper'
+// import { Navigation, Pagination } from 'swiper/modules'
 // Инициализация слайдера
 
 const swiper = new Swiper('.mySwiper', {
