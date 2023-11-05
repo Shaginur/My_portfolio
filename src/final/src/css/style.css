@@ -2,10 +2,6 @@
 @import "../css/header.css";
 @import "../css/blocks/button.css";
 /* подключение слайдера */
-@import "swiper/css";
-@import "../css/blocks/banner.css";
-@import "swiper/css/navigation";
-@import "swiper/css/pagination";
 @import "../css/blocks/forms.css";
 @import "../css/blocks/cards.css";
 @import "../css/footer.css";
