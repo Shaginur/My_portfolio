@@ -6,7 +6,7 @@
 @import "../css/blocks/cards.css";
 @import "../css/footer.css";
 @import "../css/blocks/modal.css";
-@import "../css/blocks/fashion";
+@import "../css/blocks/fashion.css";
 
 html {
     /* Firefox не учитывает 62.5% */
