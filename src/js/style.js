@@ -21,28 +21,12 @@ for (var i = 0; i < tabNavs.length; i++) {
 }
 
 var swiper = new Swiper(".mySwiper", {
-      pagination: {
-        el: ".swiper-pagination",
-        type: "progressbar",
-      },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-
-// const swiper = new Swiper('.mySwiper', {
-//   modules: [Navigation, Pagination],
-//   // Optional parameters
-//   direction: 'horizontal',
-//   // Navigation arrows
-//   navigation: {
-//     nextEl: '.swiper-button-next',
-//     prevEl: '.swiper-button-prev',
-//   },
-//   pagination: {
-//     el: '.swiper-pagination',
-//     clickable: true,
-//     type: 'progressbar'
-//   },
-// })
+  pagination: {
+    el: ".swiper-pagination",
+    type: "progressbar",
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
