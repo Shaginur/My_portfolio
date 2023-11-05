@@ -20,13 +20,13 @@ for (var i = 0; i < tabNavs.length; i++) {
   })
 }
 
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper('.mySwiper', {
   pagination: {
-    el: ".swiper-pagination",
-    type: "progressbar",
+    el: '.swiper-pagination',
+    type: 'progressbar',
   },
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
   },
-});
+})
