@@ -24,7 +24,7 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
   background-color: var(--body-color);
   color: var(--title-color);
-  /* min-height: 100vh; */
+  min-height: 100vh;
   position: relative;
   overflow-x: hidden;
 }
