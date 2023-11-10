@@ -13,13 +13,7 @@
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.footer {
-  flex: 0 0 auto;
+  min-height: calc(100vh - 8rem);
 }
 
 html {
@@ -37,7 +31,6 @@ section {
   margin-top: 10rem;
   opacity: 0;
   animation: ani 2.5s forwards;
-  flex: 1 0 auto;
 }
 
 @keyframes ani {
