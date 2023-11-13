@@ -55,3 +55,34 @@ header .burger-menu {
     display: inline-flex;
   }
 }
+
+@media screen and (max-width: 529px) {
+  .header-buttons {
+    margin-right: 0 !important;
+  }
+}
+
+@media screen and (max-width: 521px) {
+  .ml-4 {
+    max-inline-size: 17rem;
+  }
+}
+
+@media screen and (max-width: 492px) {
+  .header-secondary {
+    min-width: 7rem;
+  }
+}
+
+@media screen and (max-width: 441px) {
+  .header-secondary {
+    min-width: 6rem;
+    border: 0;
+  }
+
+  .haeder_ml-4 {
+    text-overflow: ellipsis;
+    max-inline-size: 8rem;
+    min-width: 8rem;
+  }
+}
