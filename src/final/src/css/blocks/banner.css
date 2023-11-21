@@ -1,7 +1,7 @@
 /* banner */
 /* stylelint-disable-next-line selector-max-id */
 #banner {
-  background-image: url('../images/banner/banner.jpg');
+  background-image: url('../../images/banner/banner.jpg');
   min-height: 50rem;
   height: 100%;
   background-position: top center;
