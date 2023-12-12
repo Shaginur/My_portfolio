@@ -13,6 +13,7 @@ h1 {
   text-align: center;
   color: var(--about-title-color);
   font-weight: 500;
+  font-family: 'IBMPlexSans-SemiBold', sans-serif;
 }
 
 .subtitle {
