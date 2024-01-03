@@ -4,7 +4,6 @@
 ```npm install -g npm```<br>
 -Установите Node.js Рекомендуемая версия - 14.8 LTS<br>
 С сайта Из NVM (рекомендуется) Установить зависимости<br>
-```cd vite-frontend-312 npm install```<br>
 -Запустить сервер<br>
 ```npm run dev```<br>
 -Запускаем lint для js<br>
