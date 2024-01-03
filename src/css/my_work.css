@@ -3,8 +3,14 @@
   grid-template-columns: repeat(2, auto);
   gap: 4rem;
   margin-top: 6rem;
+  margin-bottom: 6rem;
 }
 
 .work-img {
   border-radius: 10%;
+}
+
+.burger {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
 }
