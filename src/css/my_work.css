@@ -1,13 +1,14 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(2, auto);
-  gap: 4rem;
+  grid-auto-rows: 32rem;
+  gap: 0.3rem;
   margin-top: 6rem;
   margin-bottom: 6rem;
 }
 
 .work-img {
-  border-radius: 10%;
+  object-fit: cover;
 }
 
 .burger {
